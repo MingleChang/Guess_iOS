@@ -1,0 +1,11 @@
+/* 
+  InfoPlist.strings
+  Guess
+
+  Created by MingleChang on 2020/1/9.
+  Copyright © 2020 MingleChang. All rights reserved.
+*/
+CFBundleDisplayName = "猜";
+NSCameraUsageDescription = "中文";
+NSPhotoLibraryAddUsageDescription = "中文";
+NSPhotoLibraryUsageDescription = "中文";
