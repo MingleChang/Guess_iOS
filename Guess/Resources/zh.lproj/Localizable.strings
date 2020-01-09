@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  Guess
+
+  Created by MingleChang on 2019/12/30.
+  Copyright © 2019 MingleChang. All rights reserved.
+*/
+Start="开始";
+Settings="设置";
+Back="返回";
+Confirm="确认";
+Cancel="取消";
+Right="正确";
+Skip="跳过";
+Menu="菜单";
+All="全部";
