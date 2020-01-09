@@ -32,7 +32,6 @@ class MCMenuCategoryCell: UITableViewCell {
         super.awakeFromNib()
         configure()
     }
-
 }
 // MARK: - Configure
 extension MCMenuCategoryCell {
@@ -43,6 +42,7 @@ extension MCMenuCategoryCell {
     func configureView() {
         backgroundColor = UIColor.clear
         contentView.backgroundColor = UIColor.clear
+        selectionStyle = .none
         
         categoryLabel.textColor = UIColor.white
         categoryLabel.font = MCMarkerFeltWideFont(30)

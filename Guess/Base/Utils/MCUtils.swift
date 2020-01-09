@@ -11,7 +11,7 @@ import UIKit
 func MCLog<T>(_ log: T, file: String = #file, function: String = #function, line: Int = #line, column: Int = #column) {
 #if DEBUG
     let fileName = (file as NSString).lastPathComponent
-    print("file:\(fileName)\nfunction:\(function)\nline:\(line)\ncolumn:\(column)\nlog:\(log)")
+    print("\n**********\nfile:\(fileName)\nfunction:\(function)\nline:\(line)\ncolumn:\(column)\nlog:\(log)\n**********\n")
 #endif
 }
 
